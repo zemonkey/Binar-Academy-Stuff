@@ -138,7 +138,7 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: #7531FA;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 12px;
   min-width: 975px;
@@ -169,26 +169,6 @@ a {
 }
 
 
-/* BOOTSTRAP 4 ANNOUNCEMENT */
-
-div.b4_teaser {
-  position: relative;
-  text-align: center;
-  background-color: #0275D8;
-}
-
-div.b4_teaser a {
-  display: block;
-  padding: 15px 20px;
-  text-decoration: none;
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-div.b4_teaser a:hover {
-  background-color: #0269C2;
-}
 
 
 /* NAVBAR */
@@ -209,8 +189,8 @@ div.b4_teaser a:hover {
   display: block;
   font-size: 14px;
   font-weight: bold;
-  color: #563D7C;
-  padding: 0 15px;
+  color: #EADFFE;
+  padding: 0 8px;
   text-align: center;
   text-decoration: none;
 }
@@ -280,12 +260,20 @@ span.logo {
   color: white;
 }
 
+.bs_description_large {
+  font-size: 60px;
+  color: white;
+  margin: 0 auto 30px;
+  font-weight: 300;
+  line-height: 0.5;
+}
+
 .bs_description {
   font-size: 24px;
   color: white;
   margin: 0 auto 30px;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 0.5;
 }
 
 .bs_button {
