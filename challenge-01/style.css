@@ -1,9 +1,68 @@
-.navbar
-{
-    background: #F1F3FF;
-/* Body/14/Regular */
-line-height: 20px;
+body {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
 }
+
+.that_navbar
+{
+    color: #F1F3FF;
+    line-height: 20px;
+}
+
+#hero_top {
+    background-color: #F1F3FF;
+    height: 326px;
+}
+
+#hero_top-title {
+    font-family: Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+#hero_top-subtitle {
+font-family: Helvetica;
+font-size: 14px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+width: 468px;
+height: 60px;
+left: 136px;
+top: 301px;
+}
+
+
+
+#hero {
+background-color: #0D28A6;
+height: 326px;
+}
+
+#hero-title {
+    color: white;
+    font-size: 36px;
+}
+
+
+#hero-subtitle {
+    color: white;
+    font-size: 14px;
+}
+
+#hero-button {
+    background-color:#5CB85F;
+    color: white;
+}
+
+
+
 
 .accordion-button{
     box-shadow: none;
@@ -11,17 +70,82 @@ line-height: 20px;
 }
 
 #just_button{
-font-family: 'Helvetica';
-font-style: normal;
-font-weight: 400;
 font-size: 14px;
 color: black;
 }
 
+
+
+
+
 #register{
-    font-family: 'Helvetica';
-    font-style: normal;
-    font-weight: 400;
+    background-color: #5CB85F;
     font-size: 14px;
-    color: black;
+    padding: 10px;
+
+    /* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+
+width: 81px;
+height: 36px;
+
+/* Primary/LimeGreen/04 */
+border-radius: 2px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Text Here */
+
+width: 57px;
+height: 20px;
+
+/* Body/14/Bold */
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+/* Neutral/10 */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
     }
+
+
+#faq-title {
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#faq-subtitle {
+font-size: 14px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
