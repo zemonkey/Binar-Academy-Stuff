@@ -1,8 +1,27 @@
 .navbar
 {
-    background-color: blueviolet;
+    background: #F1F3FF;
+/* Body/14/Regular */
+line-height: 20px;
 }
-nav_button
-{
-    background-color: red;
+
+.accordion-button{
+    box-shadow: none;
+    border-color: black;
 }
+
+#just_button{
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: black;
+}
+
+#register{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    }
