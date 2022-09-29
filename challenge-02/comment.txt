@@ -1,0 +1,4 @@
+seperti yang kubilang, sudah pasrah diriku
+entah knp beberapa kalo mau ngetengahin suka engga bisa
+itu contohnya buat layar 1440p, kalo di layarku yg 1080p jadi aneh
+carousel jg harus pake js klo mau gt (?)
