@@ -52,8 +52,7 @@
               <ul class="nav nav-pills">
                 <li class="nav-item">
                   <a class="nav-link">
-                    <div id="reg_button" class="button bg-success">
-                      register
+                    <div class="square-ish">
                     </div>
                   </a>
                 </li>
@@ -83,7 +82,7 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link">
-                    <div id="register" class="button rounded-3">register</div>
+                    <div id="register" class="button">register </div>
                   </a>
                 </li>
               </ul>
@@ -117,8 +116,49 @@
       </ul>
     </div> -->
 
+
     <div class="container-fluid" id="hero_top">
       <div class="row">
+        <div class="col">
+          <div class="container">
+            <h1 class="display-5 fw-bold" id="hero_top-title">
+              Best Car Rental for any kind of trip in (Lokasimu)!
+            </h1>
+            <div class="col ms-3" id="hero_top-subtitle">
+              <p>
+                Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga
+                lebih murah dibandingkan yang lain, kondisi mobil baru, serta
+                kualitas pelayanan terbaik untuk perjalanan wisata, bisnis,
+                wedding, meeting, dll.
+              </p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button
+                type="button"
+                class="btn"
+                id="hero-button"
+              >
+                Mulai Sewa Mobil
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <img
+            style="width: 528px; height: 306px; display: flex"
+            src="car.png"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <img
+            src="girl.png"
+          />
+        </div>
         <div class="col">
           <div class="container" id="idk">
             <div class="container">
@@ -131,37 +171,27 @@
                   kualitas terbaik dengan harga terjangkau. Selalu siap melayani
                   kebutuhanmu untuk sewa mobil selama 24 jam.
                 </p>
+                <ul>
+                  <li class="list-group-item">Sewa Mobil Dengan Supir di Bali 12 Jam</li>
+                  <li class="list-group-item">Sewa Mobil Lepas Kunci di Bali 24 Jam</li>
+                  <li class="list-group-item">Sewa Mobil Jangka Panjang Bulanan</li>
+                  <li class="list-group-item">Gratis Antar - Jemput Mobil di Bandara</li>
+                  <li class="list-group-item">Layanan Airport Transfer / Drop In Out</li>
+                </ul>
               </div>
-
-              <button type="button" class="btn" id="hero-button">
-                Mulai Sewa Mobil
-              </button>
             </div>
           </div>
         </div>
-        <div class="col">col</div>
+
       </div>
     </div>
 
-    <div class="px-4 py-5 my-5 text-center">
-      <img
-        class="d-block mx-auto mb-4"
-        src="/docs/5.2/assets/brand/bootstrap-logo.svg"
-        alt=""
-        width="72"
-        height="57"
-      />
-      <h1 class="display-5 fw-bold">Centered hero</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">
-          Quickly design and customize responsive mobile-first sites with
-          Bootstrap, the world’s most popular front-end open source toolkit,
-          featuring Sass variables and mixins, responsive grid system, extensive
-          prebuilt components, and powerful JavaScript plugins.
-        </p>
-      </div>
-    </div>
+    <br>
+    <br>
+    <br>
 
+<!--     ini aku beneran engga bisa sih. pake js atau apa 
+    gt ada klo searching tp di luar materi? -->
     <div class="container">
       <div
         id="carouselExampleCaptions"
@@ -282,66 +312,74 @@
       </div>
     </div>
 
-    <div class="container">
-      <h1>Why Us</h1>
-      <p>This is some text.</p>
+    <div class="container" id="card-container">
+      <h1 id="card-title">Why Us?</h1>
+      <p id="card-subtitle">Mengapa harus pilih Binar Car Rental?</p>
       <div class="row">
         <div class="col">
-          <div class="card" style="width: 18rem">
+          <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <h5 class="card-title">
+                <span class="dot" style="background: #F9CC00;">
+                  <img src="clock.svg" id="card-icon" />
+                </span>
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted">Mobil Lengkap</h6>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan
+                terawat
               </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
             </div>
           </div>
         </div>
 
         <div class="col">
-          <div class="card" style="width: 18rem">
+          <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <h5 class="card-title">
+                <span class="dot" style="background: #FA2C5A;">
+                  <img src="price tag.svg" id="card-icon" />
+                </span>
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted">Harga Murah</h6>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Harga murah dan bersaing, bisa bandingkan harga kami dengan
+                rental mobil lain
               </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
             </div>
           </div>
         </div>
 
         <div class="col">
-          <div class="card" style="width: 18rem">
+          <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <h5 class="card-title">
+                <span class="dot"  style="background: #0D28A6;">
+                  <img src="thumb up.svg" id="card-icon" />
+                </span>
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted">Layanan 24 Jam</h6>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga
+                tersedia di akhir minggu
               </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
             </div>
           </div>
         </div>
 
         <div class="col">
-          <div class="card" style="width: 18rem">
+          <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <h5 class="card-title">
+                <span class="dot"   style="background: #5CB85F;">
+                  <img src="award.svg" id="card-icon" />
+                </span>
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted">Sopir Profesional</h6>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Sopir yang profesional, berpengalaman, jujur, ramah dan selalu
+                tepat waktu
               </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
             </div>
           </div>
         </div>
@@ -541,24 +579,9 @@
       </div>
 
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3">
-          <a class="text-muted" href="#"
-            ><svg class="bi" width="24" height="24">
-              <use xlink:href="#twitter"></use></svg
-          ></a>
-        </li>
-        <li class="ms-3">
-          <a class="text-muted" href="#"
-            ><svg class="bi" width="24" height="24">
-              <use xlink:href="#instagram"></use></svg
-          ></a>
-        </li>
-        <li class="ms-3">
-          <a class="text-muted" href="#"
-            ><svg class="bi" width="24" height="24">
-              <use xlink:href="#facebook"></use></svg
-          ></a>
-        </li>
+        <li class="ms-3"></li>
+        <li class="ms-3"></li>
+        <li class="ms-3"></li>
       </ul>
     </footer>
   </body>

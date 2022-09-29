@@ -4,15 +4,42 @@ body {
     font-weight: 400;
 }
 
-.that_navbar
+.navbar
 {
-    color: #F1F3FF;
+    background-color: #F1F3FF;
     line-height: 20px;
+}
+
+#card-title {
+
+height: 36px;
+left: 9.44%;
+right: 58.06%;
+top: 1132px;
+
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+}
+
+#card-subtitle {
+
+width: 468px;
+height: 20px;
+left: 136px;
+top: 1184px;
+
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+
 }
 
 #hero_top {
     background-color: #F1F3FF;
     height: 326px;
+    padding-right: 0px;
+padding-left: 0px;
 }
 
 #hero_top-title {
@@ -61,7 +88,24 @@ height: 326px;
     color: white;
 }
 
+.list-group-item {
 
+font-size: 14px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.square-ish {
+    width: 100px;
+    height: 34px;
+    
+    /* Primary/DarkBlue/04 */
+    
+    background: #0D28A6;
+}
 
 
 .accordion-button{
@@ -81,7 +125,7 @@ color: black;
 #register{
     background-color: #5CB85F;
     font-size: 14px;
-    padding: 10px;
+    padding: 50px;
 
     /* Button */
 
@@ -149,3 +193,26 @@ letter-spacing: 0em;
 text-align: left;
 
 }
+
+#card-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6px;
+    height: 18px;
+    width: 18px;
+}
+
+#random_corner {
+  height: 100px;
+  width: 480px;
+  border-radius: 25px;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
