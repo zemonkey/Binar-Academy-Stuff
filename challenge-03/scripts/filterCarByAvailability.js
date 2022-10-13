@@ -6,6 +6,7 @@ function filterCarByAvailability(cars) {
   const result = [];
 
   // Tulis code-mu disini
+  // pakai forEach aja
   cars.forEach(myFunction);
 
   function myFunction(car, _index, _array) {
